@@ -22,7 +22,11 @@ body {
 header {
     text-align: center;
     margin-bottom: 20px;
-    font-size: 14px;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .form-container {
@@ -33,7 +37,8 @@ header {
 label {
     margin-bottom: 8px;
     color: #333;
-    font-weight: bold;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 input,
