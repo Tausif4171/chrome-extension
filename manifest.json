@@ -1,20 +1,16 @@
 {
-    "manifest_version": 3,
-    "name": "TIMEFIX Assistant",
-    "version": "1.0",
-    "description": "Chrome extension to assist with email content using GPT-4",
-    "permissions": ["activeTab", "storage"],
-    "action": {
-        "default_popup": "popup.html",
-        "default_icon": {
-            "16": "images/icon16.png",
-            "48": "images/icon48.png",
-            "128": "images/icon128.png"
-        }
-    },
-    "icons": {
-        "16": "images/icon16.png",
-        "48": "images/icon48.png",
-        "128": "images/icon128.png"
+  "manifest_version": 3,
+  "name": "TIMEFIX Assistant",
+  "version": "1.0",
+  "description": "Chrome extension to assist with email content using GPT-4",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "1": "images/timefixLogo.png"
     }
+  },
+  "icons": {
+    "1": "images/timefixLogo.png"
+  }
 }
