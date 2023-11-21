@@ -8,12 +8,15 @@ body {
 }
 
 .container {
-    max-width: 600px;
-    margin: 20px auto;
+    /* max-width: 100%; */
+    /* margin: 20px auto; */
     background-color: #fff;
-    padding: 30px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    padding: 10px 30px 32px 30px;
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); */
+    /* border-radius: 8px; */
+    width: 400px;
+    /* outline: none; */
+    /* border: 0px; */
 }
 
 header {
@@ -34,11 +37,12 @@ label {
 
 input,
 textarea {
-    width: 100%;
+    /* width: 100%; */
     padding: 10px;
     margin-bottom: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    outline: none;
 }
 
 button {
@@ -56,8 +60,12 @@ button:hover {
 }
 
 .response-container {
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
+}
+
+#sendButton {
+    margin-top: 10px;
 }
 
 h2 {
